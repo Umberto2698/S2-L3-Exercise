@@ -240,20 +240,20 @@ console.log("7) dopo il ciclo ", characters.length);
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
 let x = Math.floor(Math.random() * 10);
-if (starWarsCharacters[x].hair_color === "none") {
+if (starWarsCharacters[x].name === "Darth Vader") {
   console.log(
-    `Hi! My name is ${starWarsCharacters[x].name} and I'm a ${starWarsCharacters[x].gender} and I will conquer the universe!!! Idk why but I will give you some information about me... I am ${starWarsCharacters[x].height}cm tall and I weight ${starWarsCharacters[x].mass}kg. I have ${starWarsCharacters[x].eye_color} eye and, as you can see, my skin color is ${starWarsCharacters[x].skin_color} but this job left me with no hair -_-. I was born during the ${starWarsCharacters[x].birth_year} year. Now get out of my ship, NOW!`
+    `Hi! My name is ${starWarsCharacters[x].name} and I'm a ${starWarsCharacters[x].gender} and I will conquer the universe!!! Idk why but I will give you some information about me... I am ${starWarsCharacters[x].height}cm tall and I weigh ${starWarsCharacters[x].mass}kg. I have ${starWarsCharacters[x].eye_color} eye and, as you can see, my skin color is ${starWarsCharacters[x].skin_color} but this job left me with no hair -_-. I was born during the ${starWarsCharacters[x].birth_year} year. Now get out of my ship, NOW!`
   );
 } else if (starWarsCharacters[x].birth_year === "unknown") {
   console.log(
-    `Bip-bop! didi biiiiiip bop. (Hi! My name is ${starWarsCharacters[x].name} and I'm a ${starWarsCharacters[x].gender}, nice to meet you.) Bap-po-pu tintin. (I am ${starWarsCharacters[x].height}cm tall and I weight ${starWarsCharacters[x].mass}kg.) Baaaaap-po ding-ding doooong (I am a robot so I don't have hair, but I have ${starWarsCharacters[x].eye_color} eye and, as you can see, my creator painted me with ${starWarsCharacters[x].skin_color} color.) bi-bip! (I don't know when I was created. I'm sure we will be close friend!)`
+    `Bip-bop! didi biiiiiip bop. (Hi! My name is ${starWarsCharacters[x].name} and I'm a ${starWarsCharacters[x].gender}, nice to meet you.) Bap-po-pu tintin. (I am ${starWarsCharacters[x].height}cm tall and I weigh ${starWarsCharacters[x].mass}kg.) Baaaaap-po ding-ding doooong (I am a robot so I don't have hair, but I have ${starWarsCharacters[x].eye_color} eye and, as you can see, my creator painted me with ${starWarsCharacters[x].skin_color} color.) bi-bip! (I don't know when I was created. I'm sure we will be close friend!)`
   );
 } else if (starWarsCharacters[x].gender === "robot") {
   console.log(
-    `Bip-bop! didi biiiiiip bop. (Hi! My name is ${starWarsCharacters[x].name} and I'm a ${starWarsCharacters[x].gender}, nice to meet you.) Bap-po-pu tintin. (I am ${starWarsCharacters[x].height}cm tall and I weight ${starWarsCharacters[x].mass}kg.) Baaaaap-po ding-ding doooong (I am a robot so I don't have hair, but I have ${starWarsCharacters[x].eye_color} eye and, as you can see, my creator painted me with ${starWarsCharacters[x].skin_color} color.) bi-bip! (I was created during the ${starWarsCharacters[x].birth_year} year. I'm sure we will be close friend!)`
+    `Bip-bop! didi biiiiiip bop. (Hi! My name is ${starWarsCharacters[x].name} and I'm a ${starWarsCharacters[x].gender}, nice to meet you.) Bap-po-pu tintin. (I am ${starWarsCharacters[x].height}cm tall and I weigh ${starWarsCharacters[x].mass}kg.) Baaaaap-po ding-ding doooong (I am a robot so I don't have hair, but I have ${starWarsCharacters[x].eye_color} eye and, as you can see, my creator painted me with ${starWarsCharacters[x].skin_color} color.) bi-bip! (I was created during the ${starWarsCharacters[x].birth_year} year. I'm sure we will be close friend!)`
   );
 } else {
   console.log(
-    `Hi! My name is ${starWarsCharacters[x].name} and I'm a ${starWarsCharacters[x].gender}, nice to meet you. I am ${starWarsCharacters[x].height}cm tall and I weight ${starWarsCharacters[x].mass}kg. I have ${starWarsCharacters[x].hair_color} hair and ${starWarsCharacters[x].eye_color} eye and, as you can see, my skin color is ${starWarsCharacters[x].skin_color}. I was born during the ${starWarsCharacters[x].birth_year} year. I'm sure we will be close friend!`
+    `Hi! My name is ${starWarsCharacters[x].name} and I'm a ${starWarsCharacters[x].gender}, nice to meet you. I am ${starWarsCharacters[x].height}cm tall and I weigh ${starWarsCharacters[x].mass}kg. I have ${starWarsCharacters[x].hair_color} hair and ${starWarsCharacters[x].eye_color} eye and, as you can see, my skin color is ${starWarsCharacters[x].skin_color}. I was born during the ${starWarsCharacters[x].birth_year} year. I'm sure we will be close friend!`
   );
 }
