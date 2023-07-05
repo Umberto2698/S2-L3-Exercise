@@ -239,7 +239,7 @@ console.log("7) dopo il ciclo ", characters.length);
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
-let x = Math.floor(Math.random() * 10);
+let x = Math.floor(Math.random() * starWarsCharacters.length);
 if (starWarsCharacters[x].name === "Darth Vader") {
   console.log(
     `Hi! My name is ${starWarsCharacters[x].name} and I'm a ${starWarsCharacters[x].gender} and I will conquer the universe!!! Idk why but I will give you some information about me... I am ${starWarsCharacters[x].height}cm tall and I weigh ${starWarsCharacters[x].mass}kg. I have ${starWarsCharacters[x].eye_color} eye and, as you can see, my skin color is ${starWarsCharacters[x].skin_color} but this job left me with no hair -_-. I was born during the ${starWarsCharacters[x].birth_year} year. Now get out of my ship, NOW!`
